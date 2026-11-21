@@ -3,7 +3,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 // Quando você criar o webhook no n8n (ex: https://n8n.ritmolab.com.br/webhook/contato),
 // basta colar a URL aqui! Enquanto estiver vazio, o formulário envia direto pro WhatsApp.
-const N8N_WEBHOOK_URL = '';
+const N8N_WEBHOOK_URL = 'https://n8n.ritmolab.com.br/webhook/contato-ritmolab';
 
 const form = document.getElementById('contactForm');
 const statusEl = document.getElementById('formStatus');
